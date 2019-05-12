@@ -1,0 +1,1056 @@
+I-Logix-RPY-Archive version 8.5.2 Modeler C++ 1159120
+{ ISubsystem 
+	- _id = GUID 8c9d304b-ed6a-48b2-9d47-93672b8b66d3;
+	- _myState = 8192;
+	- _name = "Default";
+	- _objectCreation = "4928095284820181029661949";
+	- _umlDependencyID = "2381";
+	- _lastID = 15;
+	- weakCGTime = 9.14.2018::14:59:36;
+	- strongCGTime = 9.14.2018::14:15:55;
+	- _defaultComposite = GUID e34f29f4-c58e-4709-acd7-44b8e1ae1749;
+	- _eventsBaseID = -1;
+	- Classes = { IRPYRawContainer 
+		- size = 6;
+		- value = 
+		{ IClass 
+			- _id = GUID e34f29f4-c58e-4709-acd7-44b8e1ae1749;
+			- _myState = 40960;
+			- _name = "TopLevel";
+			- _objectCreation = "4928097284820181029659949";
+			- _umlDependencyID = "2492";
+			- weakCGTime = 9.14.2018::14:59:36;
+			- strongCGTime = 9.14.2018::14:15:55;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 603a28bb-7384-4a00-94bc-5018f72c85b2;
+			- _myState = 8192;
+			- _name = "Doctor";
+			- _objectCreation = "4928099284820181029657949";
+			- _umlDependencyID = "2300";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Pharmacy Service System";
+				- _id = GUID ad3d2830-0826-450a-898f-a9592e080ee8;
+			}
+			- weakCGTime = 9.14.2018::15:0:41;
+			- strongCGTime = 9.14.2018::14:59:11;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 421701f0-28f7-4e11-b6fb-b091c7bfde1b;
+					- _myState = 10240;
+					- _name = "itsPrescription";
+					- _objectCreation = "4928101284820181029655949";
+					- _umlDependencyID = "3281";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 5e49f42a-516a-46f1-8fd0-8e6b48eaa313;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 25074ffc-d6eb-461a-9d0a-5f088fd7c382;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 6dd62c5e-e400-4131-b1bd-a07ea269d7a8;
+					- _myState = 10240;
+					- _name = "itsNotice";
+					- _objectCreation = "4928103284820181029653949";
+					- _umlDependencyID = "2609";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 1c6b60cf-a072-459e-9568-6aca11ca1470;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 1945c871-d994-4b31-a13b-4646f53de99f;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 2f904fb1-31e1-4a2c-a4d3-de17c626c419;
+			- _myState = 8192;
+			- _name = "Patient";
+			- _objectCreation = "4928105284820181029651949";
+			- _umlDependencyID = "2388";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Pharmacy Service System";
+				- _id = GUID ad3d2830-0826-450a-898f-a9592e080ee8;
+			}
+			- weakCGTime = 9.14.2018::15:1:3;
+			- strongCGTime = 9.14.2018::14:59:18;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 3fc79c93-a7f6-438d-a6a6-7acf27a2a6e9;
+					- _myState = 10240;
+					- _name = "itsNotice";
+					- _objectCreation = "4928107284820181029649949";
+					- _umlDependencyID = "2618";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 1c6b60cf-a072-459e-9568-6aca11ca1470;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID b09eaf19-89b5-45bf-be75-23999863f87d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 9680dbfb-3b4a-4371-b07f-469c9c501d71;
+					- _myState = 10240;
+					- _name = "itsPrescription";
+					- _objectCreation = "4928109284820181029647949";
+					- _umlDependencyID = "3290";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 5e49f42a-516a-46f1-8fd0-8e6b48eaa313;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 78153ff6-e438-4384-9556-b5591a14fa24;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID e148872f-a88e-4d02-850d-f78223921030;
+			- _myState = 8192;
+			- _name = "Pharmacy";
+			- _objectCreation = "4928111284820181029645949";
+			- _umlDependencyID = "2484";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Pharmacy Service System";
+				- _id = GUID ad3d2830-0826-450a-898f-a9592e080ee8;
+			}
+			- weakCGTime = 9.14.2018::15:0:26;
+			- strongCGTime = 9.14.2018::14:59:24;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID fd9aae55-334a-483b-a92a-ac0ce80e9135;
+					- _myState = 10240;
+					- _name = "itsPrescription";
+					- _objectCreation = "4928113284820181029643949";
+					- _umlDependencyID = "3281";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 5e49f42a-516a-46f1-8fd0-8e6b48eaa313;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 0c08c165-77ca-4668-8d63-bf4042cbcd2a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 6dd30462-38d3-41a5-9ce0-07e18b4e54e4;
+					- _myState = 10240;
+					- _name = "itsNotice";
+					- _objectCreation = "4928115284820181029641949";
+					- _umlDependencyID = "2609";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 1c6b60cf-a072-459e-9568-6aca11ca1470;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e7a7cbaa-a0ae-4fc4-a169-231337de183d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 5e49f42a-516a-46f1-8fd0-8e6b48eaa313;
+			- _myState = 8192;
+			- _name = "Prescription";
+			- _objectCreation = "4928117284820181029639949";
+			- _umlDependencyID = "2954";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Pharmacy Service System";
+				- _id = GUID ad3d2830-0826-450a-898f-a9592e080ee8;
+			}
+			- weakCGTime = 9.14.2018::15:1:3;
+			- strongCGTime = 9.14.2018::14:59:32;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 25074ffc-d6eb-461a-9d0a-5f088fd7c382;
+					- _myState = 10240;
+					- _name = "itsDoctor";
+					- _objectCreation = "4928119284820181029637949";
+					- _umlDependencyID = "2627";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 603a28bb-7384-4a00-94bc-5018f72c85b2;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 421701f0-28f7-4e11-b6fb-b091c7bfde1b;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 0c08c165-77ca-4668-8d63-bf4042cbcd2a;
+					- _myState = 10240;
+					- _name = "itsPharmacy";
+					- _objectCreation = "4928121284820181029635949";
+					- _umlDependencyID = "2820";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID e148872f-a88e-4d02-850d-f78223921030;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID fd9aae55-334a-483b-a92a-ac0ce80e9135;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 78153ff6-e438-4384-9556-b5591a14fa24;
+					- _myState = 10240;
+					- _name = "itsPatient";
+					- _objectCreation = "4928123284820181029633949";
+					- _umlDependencyID = "2724";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 2f904fb1-31e1-4a2c-a4d3-de17c626c419;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 9680dbfb-3b4a-4371-b07f-469c9c501d71;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IClass 
+			- _id = GUID 1c6b60cf-a072-459e-9568-6aca11ca1470;
+			- _myState = 8192;
+			- _name = "Notice";
+			- _objectCreation = "4928125284820181029631949";
+			- _umlDependencyID = "2273";
+			- _theMainDiagram = { IHandle 
+				- _m2Class = "IDiagram";
+				- _filename = "";
+				- _subsystem = "";
+				- _class = "";
+				- _name = "Pharmacy Service System";
+				- _id = GUID ad3d2830-0826-450a-898f-a9592e080ee8;
+			}
+			- weakCGTime = 9.14.2018::15:0:41;
+			- strongCGTime = 9.14.2018::14:59:44;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID e7a7cbaa-a0ae-4fc4-a169-231337de183d;
+					- _myState = 10240;
+					- _name = "itsPharmacy";
+					- _objectCreation = "4928127284820181029629949";
+					- _umlDependencyID = "2829";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID e148872f-a88e-4d02-850d-f78223921030;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 6dd30462-38d3-41a5-9ce0-07e18b4e54e4;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID b09eaf19-89b5-45bf-be75-23999863f87d;
+					- _myState = 10240;
+					- _name = "itsPatient";
+					- _objectCreation = "4928129284820181029627949";
+					- _umlDependencyID = "2733";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 2f904fb1-31e1-4a2c-a4d3-de17c626c419;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 3fc79c93-a7f6-438d-a6a6-7acf27a2a6e9;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 1945c871-d994-4b31-a13b-4646f53de99f;
+					- _myState = 10240;
+					- _name = "itsDoctor";
+					- _objectCreation = "4928131284820181029625949";
+					- _umlDependencyID = "2618";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IClass";
+						- _id = GUID 603a28bb-7384-4a00-94bc-5018f72c85b2;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 6dd62c5e-e400-4131-b1bd-a07ea269d7a8;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- UseCases = { IRPYRawContainer 
+		- size = 7;
+		- value = 
+		{ IUseCase 
+			- _id = GUID 82b078a2-6b4a-4d89-8cef-8a04eca070c7;
+			- _myState = 8192;
+			- _name = "Receive New Prescription";
+			- _objectCreation = "4928133284820181029623949";
+			- _umlDependencyID = "3950";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 8f918e32-ceae-4b6f-8f82-c3d45416e9e9;
+					- _myState = 10240;
+					- _name = "itsPharmacyActor";
+					- _objectCreation = "4928135284820181029621949";
+					- _umlDependencyID = "3325";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 2d56628c-9568-45ad-8023-f19d599ca8c1;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 116cfae4-4994-4008-9b53-1d2fb349ff11;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 0ba27f4f-2b44-4ae2-b09a-518d4f011ff9;
+					- _myState = 10240;
+					- _name = "itsDoctorActor";
+					- _objectCreation = "4928137284820181029619949";
+					- _umlDependencyID = "3132";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID e362472b-7214-4608-9002-ec03ee8efd44;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 4d2ea896-a145-4fa0-ad35-c534c8883c68;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 98873304-a67b-4c08-816f-c3b92cd086f8;
+			- _myState = 8192;
+			- _name = "Receive Refill Request";
+			- _objectCreation = "4928139284820181029617949";
+			- _umlDependencyID = "3730";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 32978cbb-5601-4f48-a81b-46300817328d;
+					- _myState = 10240;
+					- _name = "itsPharmacyActor";
+					- _objectCreation = "4928141284820181029615949";
+					- _umlDependencyID = "3325";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 2d56628c-9568-45ad-8023-f19d599ca8c1;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 12b7e7a4-8fba-45d3-b930-242b06687db8;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 07b08051-98aa-4076-b53f-441bef2aaca7;
+					- _myState = 10240;
+					- _name = "itsPacientActor";
+					- _objectCreation = "4928143284820181029613949";
+					- _umlDependencyID = "3212";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 6d665a83-e01c-4eb8-aff5-336e2751eec9;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID c647f589-0d23-4f76-b801-5ad656fbb1e4;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 23106be8-2840-4bf4-9e21-25f0c65eecc0;
+			- _myState = 8192;
+			- _name = "Check Patient Record";
+			- _objectCreation = "4928145284820181029611949";
+			- _umlDependencyID = "3473";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 839966c5-c0e6-4116-8aa3-d3a8b8059651;
+					- _myState = 10240;
+					- _name = "itsPharmacyActor";
+					- _objectCreation = "4928147284820181029609949";
+					- _umlDependencyID = "3334";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 2d56628c-9568-45ad-8023-f19d599ca8c1;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 1aecad6b-b439-49ba-bd3b-1c8e2b6e922c;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID b8f8967e-6553-45de-90b1-f4764875a891;
+			- _myState = 8192;
+			- _name = "Update Prescription Status";
+			- _objectCreation = "4928149284820181029607949";
+			- _umlDependencyID = "4209";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 1;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 9cd9d1da-66b8-497b-8df8-27bbd5d96a51;
+					- _myState = 10240;
+					- _name = "itsPharmacyActor";
+					- _objectCreation = "4928151284820181029605949";
+					- _umlDependencyID = "3325";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 2d56628c-9568-45ad-8023-f19d599ca8c1;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID fca81c0f-62f5-4e0f-a5a8-64174ea816aa;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID e1142f97-9edc-404d-939c-c3562c03ebac;
+			- _myState = 8192;
+			- _name = "Send Pickup Notice";
+			- _objectCreation = "4928153284820181029603949";
+			- _umlDependencyID = "3287";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 533cdedc-f03f-4fe2-a9d3-7bea3e9c6a64;
+					- _myState = 10240;
+					- _name = "itsPharmacyActor";
+					- _objectCreation = "4928155284820181029601949";
+					- _umlDependencyID = "3325";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 2d56628c-9568-45ad-8023-f19d599ca8c1;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 3db5f3c2-e319-4932-859f-2d49381c7617;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID d9a29bfc-86b8-4bcb-8744-01b6c4ec0bad;
+					- _myState = 10240;
+					- _name = "itsPacientActor";
+					- _objectCreation = "4928157284820181029599949";
+					- _umlDependencyID = "3230";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 6d665a83-e01c-4eb8-aff5-336e2751eec9;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 9af74256-68c6-482e-8cdd-684d91760cfd;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 2399cac2-54dc-43ac-8f56-7ada40d2c6cc;
+			- _myState = 8192;
+			- _name = "Send Notice to Doctor";
+			- _objectCreation = "4928159284820181029597949";
+			- _umlDependencyID = "3531";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 25f57b31-7b52-4134-9644-f99b55b6c136;
+					- _myState = 10240;
+					- _name = "itsPharmacyActor";
+					- _objectCreation = "4928161284820181029595949";
+					- _umlDependencyID = "3334";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 2d56628c-9568-45ad-8023-f19d599ca8c1;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID f77bf598-4e4f-4a54-8f7c-e1ffd68d761a;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 2e820755-7be9-4486-a17a-a8e60b06bf88;
+					- _myState = 10240;
+					- _name = "itsDoctorActor";
+					- _objectCreation = "4928163284820181029593949";
+					- _umlDependencyID = "3132";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID e362472b-7214-4608-9002-ec03ee8efd44;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 116ad753-4095-4044-924d-e017f7542453;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+		{ IUseCase 
+			- _id = GUID 5de4337b-15b0-46f0-885e-9c7d402d70f7;
+			- _myState = 8192;
+			- _name = "Receive Notice from Doctor";
+			- _objectCreation = "4928165284820181029591949";
+			- _umlDependencyID = "4044";
+			- weakCGTime = 1.2.1990::0:0:0;
+			- strongCGTime = 1.2.1990::0:0:0;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID e24be5e5-ccc8-418d-a62f-d98364e19cda;
+					- _myState = 10240;
+					- _name = "itsPharmacyActor";
+					- _objectCreation = "4928167284820181029589949";
+					- _umlDependencyID = "3343";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID 2d56628c-9568-45ad-8023-f19d599ca8c1;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 879274d2-9876-4a8f-9293-53de85c09eff;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 91bcd998-4ad8-447c-817d-de774d73a9ea;
+					- _myState = 10240;
+					- _name = "itsDoctorActor";
+					- _objectCreation = "4928169284820181029587949";
+					- _umlDependencyID = "3141";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IActor";
+						- _id = GUID e362472b-7214-4608-9002-ec03ee8efd44;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 4a0df9c3-d5e8-4556-bce8-295be163e025;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+			- _EntryPoints = { IRPYRawContainer 
+				- size = 0;
+			}
+		}
+	}
+	- Actors = { IRPYRawContainer 
+		- size = 3;
+		- value = 
+		{ IActor 
+			- _id = GUID 2d56628c-9568-45ad-8023-f19d599ca8c1;
+			- _myState = 8192;
+			- _name = "PharmacyActor";
+			- _objectCreation = "4928171284820181029585949";
+			- _umlDependencyID = "2998";
+			- weakCGTime = 9.14.2018::14:34:24;
+			- strongCGTime = 9.14.2018::14:32:52;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 7;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 116cfae4-4994-4008-9b53-1d2fb349ff11;
+					- _myState = 10240;
+					- _name = "itsReceive New Prescription";
+					- _objectCreation = "4928173284820181029583949";
+					- _umlDependencyID = "4295";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 82b078a2-6b4a-4d89-8cef-8a04eca070c7;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 8f918e32-ceae-4b6f-8f82-c3d45416e9e9;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 1aecad6b-b439-49ba-bd3b-1c8e2b6e922c;
+					- _myState = 10240;
+					- _name = "itsCheck Patient Record";
+					- _objectCreation = "4928175284820181029581949";
+					- _umlDependencyID = "3818";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 23106be8-2840-4bf4-9e21-25f0c65eecc0;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 839966c5-c0e6-4116-8aa3-d3a8b8059651;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID fca81c0f-62f5-4e0f-a5a8-64174ea816aa;
+					- _myState = 10240;
+					- _name = "itsUpdate Prescription Status";
+					- _objectCreation = "4928177284820181029579949";
+					- _umlDependencyID = "4554";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID b8f8967e-6553-45de-90b1-f4764875a891;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 9cd9d1da-66b8-497b-8df8-27bbd5d96a51;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 12b7e7a4-8fba-45d3-b930-242b06687db8;
+					- _myState = 10240;
+					- _name = "itsReceive Refill Request";
+					- _objectCreation = "4928179284820181029577949";
+					- _umlDependencyID = "4075";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 98873304-a67b-4c08-816f-c3b92cd086f8;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 32978cbb-5601-4f48-a81b-46300817328d;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 3db5f3c2-e319-4932-859f-2d49381c7617;
+					- _myState = 10240;
+					- _name = "itsSend Pickup Notice";
+					- _objectCreation = "4928181284820181029575949";
+					- _umlDependencyID = "3632";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID e1142f97-9edc-404d-939c-c3562c03ebac;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 533cdedc-f03f-4fe2-a9d3-7bea3e9c6a64;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID f77bf598-4e4f-4a54-8f7c-e1ffd68d761a;
+					- _myState = 10240;
+					- _name = "itsSend Notice to Doctor";
+					- _objectCreation = "4928183284820181029573949";
+					- _umlDependencyID = "3858";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 2399cac2-54dc-43ac-8f56-7ada40d2c6cc;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 25f57b31-7b52-4134-9644-f99b55b6c136;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 879274d2-9876-4a8f-9293-53de85c09eff;
+					- _myState = 10240;
+					- _name = "itsReceive Notice from Doctor";
+					- _objectCreation = "4928185284820181029571949";
+					- _umlDependencyID = "4380";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 5de4337b-15b0-46f0-885e-9c7d402d70f7;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID e24be5e5-ccc8-418d-a62f-d98364e19cda;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IActor 
+			- _id = GUID e362472b-7214-4608-9002-ec03ee8efd44;
+			- _myState = 8192;
+			- _name = "DoctorActor";
+			- _objectCreation = "4928187284820181029569949";
+			- _umlDependencyID = "2805";
+			- weakCGTime = 9.14.2018::14:35:28;
+			- strongCGTime = 9.14.2018::14:33:14;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 3;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID 4d2ea896-a145-4fa0-ad35-c534c8883c68;
+					- _myState = 10240;
+					- _name = "itsReceive New Prescription";
+					- _objectCreation = "4928189284820181029567949";
+					- _umlDependencyID = "4304";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 82b078a2-6b4a-4d89-8cef-8a04eca070c7;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 0ba27f4f-2b44-4ae2-b09a-518d4f011ff9;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 116ad753-4095-4044-924d-e017f7542453;
+					- _myState = 10240;
+					- _name = "itsSend Notice to Doctor";
+					- _objectCreation = "4928191284820181029565949";
+					- _umlDependencyID = "3858";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 2399cac2-54dc-43ac-8f56-7ada40d2c6cc;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 2e820755-7be9-4486-a17a-a8e60b06bf88;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 4a0df9c3-d5e8-4556-bce8-295be163e025;
+					- _myState = 10240;
+					- _name = "itsReceive Notice from Doctor";
+					- _objectCreation = "4928193284820181029563949";
+					- _umlDependencyID = "4380";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 5de4337b-15b0-46f0-885e-9c7d402d70f7;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 91bcd998-4ad8-447c-817d-de774d73a9ea;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+		{ IActor 
+			- _id = GUID 6d665a83-e01c-4eb8-aff5-336e2751eec9;
+			- _myState = 8192;
+			- _name = "PacientActor";
+			- _objectCreation = "4928195284820181029561949";
+			- _umlDependencyID = "2885";
+			- weakCGTime = 9.14.2018::14:35:13;
+			- strongCGTime = 9.14.2018::14:33:30;
+			- _multiplicity = "";
+			- _itsStateChart = { IHandle 
+				- _m2Class = "";
+			}
+			- Associations = { IRPYRawContainer 
+				- size = 2;
+				- value = 
+				{ IAssociationEnd 
+					- _id = GUID c647f589-0d23-4f76-b801-5ad656fbb1e4;
+					- _myState = 10240;
+					- _name = "itsReceive Refill Request";
+					- _objectCreation = "4928197284820181029559949";
+					- _umlDependencyID = "4075";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID 98873304-a67b-4c08-816f-c3b92cd086f8;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID 07b08051-98aa-4076-b53f-441bef2aaca7;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+				{ IAssociationEnd 
+					- _id = GUID 9af74256-68c6-482e-8cdd-684d91760cfd;
+					- _myState = 10240;
+					- _name = "itsSend Pickup Notice";
+					- _objectCreation = "4928199284820181029557949";
+					- _umlDependencyID = "3641";
+					- _multiplicity = "1";
+					- _otherClass = { IClassifierHandle 
+						- _m2Class = "IUseCase";
+						- _id = GUID e1142f97-9edc-404d-939c-c3562c03ebac;
+					}
+					- _inverse = { IHandle 
+						- _m2Class = "IAssociationEnd";
+						- _id = GUID d9a29bfc-86b8-4bcb-8744-01b6c4ec0bad;
+					}
+					- _linkName = "";
+					- _linkType = Assoc;
+					- _navigability = Navigable;
+				}
+			}
+			- _classModifier = Unspecified;
+		}
+	}
+	- _configurationRelatedTime = 1.2.1990::0:0:0;
+}
+

@@ -1,0 +1,63 @@
+U:\CSC 340\Pharmacy Service\Pharmacy Service\bin\Debug\Pharmacy Service.exe.config
+U:\CSC 340\Pharmacy Service\Pharmacy Service\bin\Debug\Pharmacy Service.exe
+U:\CSC 340\Pharmacy Service\Pharmacy Service\bin\Debug\Pharmacy Service.pdb
+U:\CSC 340\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csprojAssemblyReference.cache
+U:\CSC 340\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Properties.Resources.resources
+U:\CSC 340\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csproj.GenerateResource.cache
+U:\CSC 340\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csproj.CoreCompileInputs.cache
+U:\CSC 340\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.exe
+U:\CSC 340\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.pdb
+U:\CSC 340\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Form1.resources
+U:\CSC 340\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Form2.resources
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\bin\Debug\Pharmacy Service.exe.config
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\bin\Debug\Pharmacy Service.exe
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\bin\Debug\Pharmacy Service.pdb
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csprojAssemblyReference.cache
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Form1.resources
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Form2.resources
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Properties.Resources.resources
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csproj.GenerateResource.cache
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csproj.CoreCompileInputs.cache
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.exe
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.pdb
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\bin\Debug\Pharmacy Service.exe.config
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\bin\Debug\Pharmacy Service.exe
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\bin\Debug\Pharmacy Service.pdb
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csprojAssemblyReference.cache
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Form1.resources
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Form2.resources
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Properties.Resources.resources
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csproj.GenerateResource.cache
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csproj.CoreCompileInputs.cache
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.exe
+C:\Users\EKUStudent\Downloads\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.pdb
+F:\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\bin\Debug\Pharmacy Service.exe.config
+F:\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\bin\Debug\Pharmacy Service.exe
+F:\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\bin\Debug\Pharmacy Service.pdb
+F:\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csprojAssemblyReference.cache
+F:\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Form1.resources
+F:\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Form2.resources
+F:\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Properties.Resources.resources
+F:\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csproj.GenerateResource.cache
+F:\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csproj.CoreCompileInputs.cache
+F:\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.exe
+F:\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.pdb
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\bin\Debug\Pharmacy Service.exe.config
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\bin\Debug\Pharmacy Service.exe
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\bin\Debug\Pharmacy Service.pdb
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csprojAssemblyReference.cache
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Properties.Resources.resources
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csproj.GenerateResource.cache
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csproj.CoreCompileInputs.cache
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.exe
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.pdb
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.PatientInfo.resources
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Login.resources
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\bin\Debug\MySql.Data.dll
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\bin\Debug\Google.Protobuf.dll
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\bin\Debug\MySql.Data.xml
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.MainMenu.resources
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy Service.csproj.CopyComplete
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Notifications.resources
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.Prescriptions.resources
+C:\Users\quinten_rader\Desktop\CSC 340 Individual Project--Draft\Pharmacy Service\Pharmacy Service\obj\Debug\Pharmacy_Service.patientsAllergies.resources
